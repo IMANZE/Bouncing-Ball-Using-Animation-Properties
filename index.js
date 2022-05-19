@@ -1,6 +1,6 @@
-const btn = document.getElementById('toggleButton');
-const circle = document.getElementById('animatedCircle');
+const btn = document.getElementById("toggleButton");
+const circle = document.getElementById("animatedCircle");
 
-btn.addEventListener('click', () => {
-    circle.classList.toggle('running');
+btn.addEventListener("click", () => {
+  circle.classList.toggle("running");
 });
