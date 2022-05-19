@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border-radius: 50%;
+    animation: jump 1s infinite alternate ease-in-out paused;
+}
+
+.animation-toggle-button {
+    height: fit-content;
+}
+
+.circle.running {
+    animation-play-state: running;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(200px);
+    }
+    
+}
